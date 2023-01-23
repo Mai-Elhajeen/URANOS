@@ -1,0 +1,54 @@
+/* ******************** start header ******************** */
+.header {
+    background: url(./img/header-bg.png) no-repeat center;
+    background-size: cover;
+}
+.overlay {
+    background: rgba(0, 0, 0, .5);
+}
+/* navbar */
+#navbar{
+    z-index: 1000;
+}
+.navbar-brand,
+.nav-item {
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-brand span {
+    font-size: 12px;
+    color: #000;
+    background: #FFD800;
+    padding: 2px;
+    border-radius: 2px;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #fff;
+    color: #000;
+    background: #FFD800;
+    border-radius: 4px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+/* form */
+.form-control {
+    background: transparent;
+}
+
+
+
+
+/* change background header */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    background-color: #212529 !important;
+}
+
+/* ******************** start media query ******************** */
+@media (max-width: 768px) {
+    .navbar-collapse{
+        background-color: #212529 !important;
+        padding: 16px 24px;
+    }
+}
