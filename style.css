@@ -45,6 +45,17 @@ section#about {
     bottom: 250px;
 }
 
+
+/* start our-team */
+.awesome-app-1{
+    background: #FFE347;
+}
+img.position-absolute {
+    bottom: -100px;
+    width: 980px;
+    height: 95vh;
+    left: -120px;
+}
 /* change background header */
 .scroll-header{
     box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
