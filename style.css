@@ -37,7 +37,13 @@
 }
 
 
-
+/* start about section */
+section#about {
+    height: 100vh;
+}
+.col-md.position-relative{
+    bottom: 250px;
+}
 
 /* change background header */
 .scroll-header{
