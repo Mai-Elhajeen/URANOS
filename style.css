@@ -76,6 +76,9 @@ img.position-absolute {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
     background-color: #212529 !important;
 }
+a {
+    text-decoration: none;
+}
 
 /* ******************** start media query ******************** */
 @media (max-width: 768px) {
